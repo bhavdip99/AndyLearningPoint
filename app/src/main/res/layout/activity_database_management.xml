@@ -1,0 +1,81 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="@string/hello_world"
+        tools:context=".DatabaseManagementActivity" />
+
+    <Button
+        android:id="@+id/updateItem"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:onClick="onClick"
+        android:text="Update Item" />
+
+    <Button
+        android:id="@+id/deleteItem"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/updateItem"
+        android:onClick="onClick"
+        android:text="Delete Item" />
+
+    <Button
+        android:id="@+id/viewData"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/deleteItem"
+        android:layout_below="@+id/deleteItem"
+        android:onClick="onClick"
+        android:text="View Database" />
+
+    <Button
+        android:id="@+id/addItem"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/updateItem"
+        android:layout_alignParentLeft="true"
+        android:onClick="onClick"
+        android:text="Add Item" />
+
+    <EditText
+        android:id="@+id/Quantity"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/addItem"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/Quantity"
+        android:layout_alignParentLeft="true"
+        android:text="Quantity" />
+
+    <EditText
+        android:id="@+id/itemType"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView1"
+        android:layout_alignParentLeft="true" />
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/itemType"
+        android:layout_alignParentLeft="true"
+        android:text="Item Name" />
+
+</RelativeLayout>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/index"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="4dp"
+        android:paddingLeft="5dp"
+        android:paddingTop="8dp"
+        android:text="1"
+        android:textColor="#f512aa"
+        android:textSize="14dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:inputType="number"
+        android:padding="5sp"
+        android:text="+4318"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/collon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/index"
+        android:paddingBottom="4dp"
+        android:paddingTop="8dp"
+        android:text=".. "
+        android:textColor="#f512aa"
+        android:textSize="14dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/collon"
+        android:inputType="datetime"
+        android:paddingBottom="4dp"
+        android:paddingLeft="8dp"
+        android:paddingTop="8dp"
+        android:text="02/02/2013"
+        android:textColor="#f512aa"
+        android:textSize="14sp" />
+
+    <!-- <TextView
+        android:id="@+id/partyName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/total"
+        android:paddingLeft="50dp"
+        android:text="Party Name :"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/totalItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/partyName"
+        android:paddingLeft="50dp"
+        android:text="Total Items"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/descGoods"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/totalItem"
+        android:paddingLeft="50dp"
+        android:text="Description Of Goods"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/invoiceType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/descGoods"
+        android:paddingBottom="10dp"
+        android:paddingLeft="50dp"
+        android:text="Invoice Type"
+        android:textSize="15sp" /> -->
+
+</RelativeLayout>

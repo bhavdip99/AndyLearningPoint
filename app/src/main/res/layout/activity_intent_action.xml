@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#363"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/internet"
+        android:layout_width="56dp"
+        android:layout_height="62dp"
+        android:layout_marginLeft="6dp"
+        android:background="@mipmap/internet"
+        android:onClick="call" />
+
+    <Button
+        android:id="@+id/fb"
+        android:layout_width="56dp"
+        android:layout_height="62dp"
+        android:layout_marginLeft="6dp"
+        android:background="@mipmap/facebook"
+        android:onClick="call" />
+
+    <Button
+        android:id="@+id/bigb"
+        android:layout_width="56dp"
+        android:layout_height="62dp"
+        android:layout_marginLeft="6dp"
+        android:background="@mipmap/bigb"
+        android:onClick="call" />
+
+    <Button
+        android:id="@+id/cam"
+        android:layout_width="56dp"
+        android:layout_height="62dp"
+        android:layout_marginLeft="6dp"
+        android:background="@mipmap/camera"
+        android:onClick="call" />
+
+    <Button
+        android:id="@+id/phone"
+        android:layout_width="56dp"
+        android:layout_height="62dp"
+        android:layout_marginLeft="6dp"
+        android:background="@mipmap/phone"
+        android:onClick="call" />
+</LinearLayout>
